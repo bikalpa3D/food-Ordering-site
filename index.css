@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+  height: 100%;
+  width: 100%;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  background: #c4b6b6;
+  padding: 20px;
+}
+.logo {
+  height: 80px;
+  width: 80px;
+}
+
+.nav-list > ul {
+  display: flex;
+  gap: 30px;
+  padding-right: 20px;
+  list-style-type: none;
+}
+.body {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.Res-Container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5vw;
+  padding: 10px;
+}
+.cards {
+  width: 280px;
+  background-color: #c4b6b6;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  line-height: 30px;
+  padding: 10px 5px;
+  text-align: center;
+}
+.cards:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+.cards .order-img {
+  height: 70%;
+  width: 100%;
+  margin-bottom: 20px;
+}
