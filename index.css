@@ -38,6 +38,9 @@
   justify-content: center;
   padding: 20px;
 }
+.filtered-btn{
+  padding: 10px 5px;
+}
 .Res-Container {
   display: flex;
   flex-wrap: wrap;
@@ -60,7 +63,8 @@
   cursor: pointer;
 }
 .cards .order-img {
-  height: 70%;
+  height: 60%;
   width: 100%;
   margin-bottom: 20px;
+ object-fit: cover;
 }
