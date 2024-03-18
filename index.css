@@ -38,7 +38,7 @@
   justify-content: center;
   padding: 20px;
 }
-.filtered-btn{
+.filtered-btn {
   padding: 10px 5px;
 }
 .Res-Container {
@@ -66,5 +66,29 @@
   height: 60%;
   width: 100%;
   margin-bottom: 20px;
- object-fit: cover;
+  object-fit: cover;
+}
+.shimmer-container {
+  height: 100vh;
+  width: 100vw;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.shimmer-card {
+  height: 400px;
+  width: 300px;
+  padding: 10px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  background-color: #c4b6b6;
+}
+.shimmer-card .shimmer-header {
+  height: 50%;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 30px;
+  background-color: #c4b6b6;
 }
