@@ -6,6 +6,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
 import { RouterProvider, createBrowserRouter, Outlet } from "react-router-dom";
+import ResturantMenu from "./components/ResturantMenu";
 
 //react Element
 // const jsxHeading = <h1 className="heading">Hello World! Using jsx</h1>;
@@ -57,7 +58,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
-      },
+      },{
+        path:"/resturants/:resId",
+        element:<ResturantMenu/>
+      }
     ],
     errorElement: <Error />,
   },
